@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iCare</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item >Home</item>
+        <item >General Health Information</item>
+        <item >CareCenter\'s Locations</item>
+        <item >Notes</item>
+        <item >Emergency call</item>
+        <item >iCare Gallery</item>
+        <item >About Us</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/general_info</item>
+        <item>@drawable/map</item>
+        <item>@drawable/note</item>
+        <item>@drawable/emergency_call</item>
+        <item>@drawable/gallery</item>
+        <item>@drawable/about_us</item>
+    </array>
+    
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    
+    <string name="profileName">Name</string>
+    <string name="dob">Date of Birth</string>
+    <string name="dobET">dd-mm-yy</string>
+    <string name="height">Height(cm)</string>
+    <string name="weight">Weight(kg)</string>
+    <string name="bloodGroup">BloodGroup</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="profile_save">Save</string>
+    <string name="tittleAddProfile">Please provide your info for your profile</string>
+    <string name="profileNameTV">Name</string>
+    <string name="dobTV">Date of Birth</string>
+    <string name="heightTV">Height</string>
+    <string name="weightTV">Weight</string>
+    <string name="bloodGroupTV">BloodGroup</string>
+    <string name="genderTV">Gender</string>
+    <string name="tittleSaveProfile">Profile Information</string>
+    <string name="go_diet">Diet Chart</string>
+    <string name="go_vaccination">Vaccinations</string>
+    <string name="go_doctor">Doctors Info</string>
+    <string name="go_prescription">Prescriptions</string>
+    <string name="show_Doctor_header">Add your doctor\'s info here</string>
+    <string name="textName">Doctor\'s Name</string>
+    <string name="tvSpeciality">Sprciality</string>
+    <string name="chamberTextView">Doctor\'s Chember</string>
+    <string name="tvPhone">Contact No</string>
+    <string name="emailTextView">Email</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="upload_prescription">Upload Prescription</string>
+    <string name="doctor_profile_save">Save</string>
+    <string name="headerDoctorProfile">Doctor\'s info</string>
+    <string name="ask_doctor">Wanna Ask Doctor?</string>
+    <string name="tv_Doctor_listview_heder">My Doctor\'s List</string>
+    
+    
+    <string name="etDoctorName">enter doctor name</string>
+    
+    <string name="etSpeciality">enter speciality</string>
+    
+    <string name="phoneEditText">enter phone number</string>
+    
+    <string name="emailEditText">enter email</string>
+    
+    <string name="chamberEditText">enter chamber location</string>
+    
+    
+    <string name="Emergencyphone">Enter Your Emergency Phone No. here</string>
+    <string name="buttonSubmit">Save</string>
+    
+    <string name="call">Shake to call</string>
+    <string name="tv__userprofile_listview_EmergencyCall">Emergency Call</string>
+    
+     <string name="creatediet">Create Diet Chart</string>
+    <string name="feast">Feast</string>
+    <string name="menu">Menu</string>
+    <string name="alarm">Alarm</string>
+    <string name="weekly">Weekly Plan</string>
+    <string name="dietchart">Diet Chart</string>
+    <string name="alldiet">All Diet Chart</string>
+    <string name="viewall">View All</string>
+    <string name="colon"> : </string>
+    <string name="today">Today\'s Diet Chart</string>
+    <string name="summery">Summery</string>
+    <string name="save">Save</string>
+    
+    <string name="complete">Please Complete All Field</string>
+    <string name="takephoto">Please Take Photo</string>
+    <string name="insert">Successfully Data Inserted</string>
+    <string name="update">Successfully Data Updated</string>    
+    <string name="datadelete">Successfully Data Deleted</string>
+    <string name="fail">Sorry! Data Insertion Failed</string>
+    <string name="miss">Do You Miss Something ! </string>
+    <string name="invalide">Invalide Email Address ! Please Check Again</string>
+    <string name="correctnum">Please Enter Mobile Number Correctly </string>
+    <string name="docappoint">Please Select Your Appointment Date and Time</string>
+    <string name="deletealart">Are You Sure ?</string>
+    <string name="deletemsg">Profile Deleted</string>
+    <string name="deletenote">Note Deleted</string>
+    <string name="comment">This is a static page. Related general information will be provided.</string>   
+    <string name="setting">Settings</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    
+    
+    
+    
+    
+</resources>

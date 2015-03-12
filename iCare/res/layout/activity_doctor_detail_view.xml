@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="4"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:drawableLeft="@drawable/docprofile"
+                android:gravity="center"
+                android:text="@string/show_Doctor_header"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#f9ffff"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.35"
+                android:text="@string/textName"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/viewDoctorName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="0.65"
+                android:ems="10"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#f3ffff"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0.35"
+                android:text="@string/tvSpeciality"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/viewDoctorSpecility"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:ems="10"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="5dp"
+            android:background="#f9ffff"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0.35"
+                android:text="@string/tvPhone"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/viewDoctorPhone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:ems="10"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/view_img_call"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.11"
+                android:background="#ffffff"
+                android:src="@drawable/call" />
+
+            <ImageView
+                android:id="@+id/view_img_message"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/sms" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:layout_marginTop="5dp"
+            android:background="#f3ffff"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0.35"
+                android:text="@string/emailTextView"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/viewDoctorEmail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:ems="10"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/view_img_Email"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/mail" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#f9ffff"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="0.35"
+                android:text="@string/chamberTextView"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/viewDoctorChamber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:ems="10"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
